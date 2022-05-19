@@ -1,0 +1,54 @@
+    body {
+        background-color: rgb(45, 48, 51);
+    }
+    
+    .container {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(4, 40vh);
+        grid-template-rows: repeat(3, 30vh);
+    }
+    
+    .box {
+        border: solid;
+    }
+    
+    .box1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-color: red;
+    }
+    
+    .box2 {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        background: linear-gradient(green, blue)
+    }
+    
+    .box3 {
+        background: linear-gradient( rgb(208, 9, 248), purple)
+    }
+    
+    .box4 {
+        background: linear-gradient(.25turn, black, darkred);
+    }
+    
+    .box5 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        background: linear-gradient(maroon, black);
+    }
+    
+    .box6 {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        background-image: url("dutch.jpg");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: black;
+    }
